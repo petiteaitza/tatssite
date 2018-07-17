@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" id="{block:IndexPage}index{/block:IndexPage}{block:PermalinkPage}permalink{/block:PermalinkPage}" class="no-js {block:ifNotInfiniteScroll}no-{/block:ifNotInfiniteScroll}infscr {block:ifNotEnableAnimations}no-{/block:ifNotEnableAnimations}animations transitions {block:ifNotFadeInPosts}no-{/block:ifNotFadeInPosts}fadein {block:ifNotLoadPostsIndividually}no-{/block:ifNotLoadPostsIndividually}loadsolo not-mobile {block:ifTransparentPostBackground}transbg{/block:ifTransparentPostBackground} {block:ifBorderAroundIndexPosts}border-post{/block:ifBorderAroundIndexPosts} {block:ifBorderAroundPermalinkContent}border-content{/block:ifBorderAroundPermalinkContent} {block:ifBorderAroundPermalinkMeta}border-meta{/block:ifBorderAroundPermalinkMeta} {block:ifPhotosStretchToFillWidth}photostretch{/block:ifPhotosStretchToFillWidth} {block:ifPhotosClickThroughToPermalink}photoclickthrough{/block:ifPhotosClickThroughToPermalink} {block:ifNotShowLikeAndReblogButtons}no-{/block:ifNotShowLikeAndReblogButtons}likereblog">
+ <!--
+   Tessellate theme version 3.0 // balloonies.tumblr.com
+   Install // www.tumblr.com/theme/30524
+ -->
+ <head>
+   <meta charset="utf-8">
+   <title>{Title}{block:PostSummary} - {PostSummary}{/block:PostSummary}</title>
+   {block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="color:Border" content="#f1f1f1">
+   <meta name="color:Link" content="#708090">
+   <meta name="color:Meta background" content="#ffffff">
+   <meta name="color:Meta font" content="#708090">
+   <meta name="color:No album art background" content="#eeeeee">
+   <meta name="color:Page background" content="#ffffff">
+   <meta name="color:Page font" content="#999999">
+   <meta name="color:Post background" content="#ffffff">
+   <meta name="color:Title" content="#708090">
+
+   <meta name="font:Page" content="'courier new', monospace">
+   <meta name="font:Title" content="'courier new', monospace">
